@@ -1,4 +1,6 @@
-* {
+*,
+*::after,
+*::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -40,10 +42,9 @@ body {
 }
 
 .header_link_logo {
-
     text-decoration: none;
     font-size: 38px;
-    color: #232323;
+    color: #3b1515;
     font-family: 'Josefin Sans', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1.1px;
@@ -461,6 +462,15 @@ body {
     letter-spacing: 1.5px;
     font-family: 'Mulish', sans-serif;
     margin-right: 36px;
+    border: 1px solid #F5F5F5;
+}
+
+.form_input-text:focus {
+    border: 1px solid #3D8B74;
+}
+
+.form_input-email:focus {
+    border: 1px solid #3D8B74;
 }
 
 .form_input-email {
@@ -475,6 +485,7 @@ body {
     font-family: 'Mulish', sans-serif;
     margin-right: 24px;
     margin-left: -17px;
+    border: 1px solid #F5F5F5;
 }
 
 .order__form {
