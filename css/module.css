@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     body {
         width: auto;
 
@@ -91,8 +91,12 @@
     }
 
     .form_button {
+        padding: 20px 103px;
+        width: auto;
+        margin-left: 1px;
         margin-top: 10px;
     }
+
 
     .submission__form {
         padding: 40px 20px;
@@ -141,9 +145,6 @@
         width: auto;
     }
 
-    .header {
-        height: 220px;
-    }
 
     .header__inner {
         display: block;
@@ -153,6 +154,16 @@
 
     .header_link_logo {
         font-size: 20px;
+
+    }
+
+    .header_link_logo::after {
+        content: "";
+        background: url(../img/free-icon-menu-button-of-three-horizontal-lines-56763.png) no-repeat;
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        right: 20px;
     }
 
     .container {
@@ -161,23 +172,10 @@
     }
 
     .nav-link {
-        font-size: 16px;
-        padding: 20px 0px;
+        display: none;
+        ;
     }
 
-    .nav-list {
-        display: flex;
-        width: 120px;
-        flex-direction: column;
-    }
-
-    .nav-item {
-        margin-top: 10px;
-        margin-left: 10px;
-
-    }
-
-    .nav-link {}
 
     /* <!-- Главная картинка сайта   --> */
     .main {
@@ -193,7 +191,12 @@
 
     .modal-windom {
         height: auto;
-        padding-bottom: 30px;
+        padding: 20px 10px 30px 10px;
+    }
+
+    .main-button {
+        width: auto;
+        padding: 0px 10px;
     }
 
     .inner_content {
@@ -204,6 +207,11 @@
 
     .news-nav-list {
         display: inline-block;
+    }
+
+    .news-nav {
+        display: block;
+        padding: 0px 10px;
     }
 
     .content {
@@ -294,9 +302,15 @@
         margin: 10px 20px;
     }
 
+
     .form_button {
+        padding: 20px 103px;
+        width: auto;
+        margin-left: 1px;
         margin-top: 10px;
     }
+
+
 
     .submission__form {
         margin: 0;

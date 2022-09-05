@@ -14,7 +14,7 @@ li {
 
 
 body {
-    width: 1442px;
+
     background-color: #FFFFFF;
     margin: 0 auto;
     font-family: 'Mulish', sans-serif;
@@ -141,6 +141,11 @@ body {
     letter-spacing: 1.1px;
     font-size: 16px;
     font-weight: 700;
+    cursor: pointer;
+}
+
+.main-button:hover {
+    background-color: #40A385;
 }
 
 .content {
